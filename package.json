@@ -1,0 +1,52 @@
+{
+  "name": "@uptexx/social-media-specs",
+  "version": "1.0.0",
+  "description": "Complete TypeScript/JSON specification of image, video, aspect ratio, duration, and character limits across 10 social networks (Instagram, TikTok, YouTube, LinkedIn, X, Pinterest, Threads, Facebook, Bluesky, Mastodon).",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "module": "./src/index.mjs",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.mjs",
+      "default": "./src/index.mjs"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/index.test.mjs"
+  },
+  "keywords": [
+    "social-media",
+    "specifications",
+    "aspect-ratio",
+    "dimensions",
+    "video-limits",
+    "character-limits",
+    "instagram",
+    "tiktok",
+    "youtube",
+    "linkedin",
+    "x",
+    "threads",
+    "bluesky",
+    "mastodon",
+    "nexopost",
+    "uptexx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uptexx/social-media-specs.git"
+  },
+  "homepage": "https://nexopost.com",
+  "author": "Uptexx (https://uptexx.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
